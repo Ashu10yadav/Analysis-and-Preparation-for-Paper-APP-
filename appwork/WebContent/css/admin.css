@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bgmodule{
+	background-color: azure;
+	width:100%;
+}
+.mod{
+	width:98%;
+}
+.inside1{
+	background-color: aliceblue;
+	width:100%;
+	border: solid 1px red;
+	padding: 0.5%;
+	height: 130px;
+    margin: 1%;
+}
+.inside2{
+	background-color: aliceblue;
+	width:100%;
+	border: solid 1px red;
+	padding: 0.5%;
+	height: 230px;
+    margin: 1%;
+}
+.inside3{
+	background-color: aliceblue;
+	width:100%;
+	border: solid 1px red;
+	padding: 0.5%;
+	height: 330px;
+    margin: 1%;
+}
+.lpanel{
+	float: left;
+    width: 45%;
+    margin: 1%;
+    border: dashed 1px blue;
+}
+.rpanel{
+	float: right;
+    width: 45%;
+    margin: 1%;
+    border: dashed 1px blue;
+}
+.form1>input[type=text],select,input[type=number]{
+	width:96%;
+	padding:1%;
+	margin:2%;
+    display: inline-block;
+    text-align: center;
+}
+.form1>input[type=submit]{
+	background-color: coral;
+    color: azure;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 40%;
+}
